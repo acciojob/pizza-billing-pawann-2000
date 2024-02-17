@@ -48,7 +48,7 @@ public class Pizza {
         this.bill = "Base Price Of The Pizza: "+ this.price + "\n" +
                 "Extra Cheese Added: " + this.cheese + "\n" +
                 "Extra Toppings Added: " + this.toppings + "\n" +
-                (this.takeAway!=0 ? ("Paperbag Added: " + this.takeAway + "\n" + "Total Price: " + (this.price + this.cheese + this.toppings + this.takeAway)) : "Total Price: " + (this.price + this.cheese + this.toppings + this.takeAway));
+                (this.takeAway!=0 ? ("Paperbag Added: " + this.takeAway + "\n" + "Total Price: " + (this.price + this.cheese + this.toppings + this.takeAway)) : "Total Price: " + (this.price + this.cheese + this.toppings + this.takeAway)) + "\n";
         return this.bill;
     }
 }
